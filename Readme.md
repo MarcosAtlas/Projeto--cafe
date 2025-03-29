@@ -15,7 +15,7 @@ assets/
 style.css
 
 
-    img/
+    img/        
 
 
 index.html
@@ -33,7 +33,7 @@ index.html
 ### Seções do Site
 
 1. **Home**: Apresenta o slogan do café e um botão para acessar o menu.
-2. **Sobre Nós**: Explica o que torna o café especial, com uma imagem e descrição.
+2. **Sobre**: Explica o que torna o café especial, com uma imagem e descrição.
 3. **Menu**: Mostra os itens disponíveis no cardápio, com imagens, descrições e preços.
 4. **Avaliações**: Exibe depoimentos de clientes satisfeitos, com fotos e avaliações.
 5. **Endereço**: Inclui um mapa interativo para localizar o café.
