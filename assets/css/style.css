@@ -1,49 +1,50 @@
 :root {
-    --primary-color: #d3ad7f;
-    --black: #13131a;
-    --bg: #010103;
-    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
-    font-size: 10px;
+    --primary-color: #d3ad7f;  /* Define a cor primária do site */
+    --black: #13131a; /* Define a cor preta do site */
+    --bg: #010103; /* Define a cor de fundo do site */
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);  /* Define a cor da borda padrão */
+    font-size: 10px; /* Define o tamanho da fonte padrão */
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: 0.2s linear;
-    font-family: 'Roboto', sans-serif;
+    margin: 0;  
+    padding: 0;  
+    outline: none; /* Remove a borda padrão do foco */
+    border: none; /* Remove a borda padrão */
+    text-decoration: none; /* Remove a decoração de texto padrão */
+    text-transform: capitalize; /* Transforma o texto em maiúsculas */
+    transition: 0.2s linear; /* Adiciona uma transição suave a todos os elementos */
+    font-family: 'Roboto', sans-serif; /* altera a fonte do texto */
+
 
 }
 
 body{
-    background-color: var(--bg);
+    background-color: var(--bg); /* Define a cor de fundo do corpo */
 }
 
-section{
-    padding: 3rem 2rem;
-    margin: 0 auto;
-    max-width: 1200px;
+section{ 
+    padding: 3rem 2rem; /* Adiciona um espaçamento interno padrão */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    max-width: 1200px; /* Define a largura máxima do contêiner */
 }
 
 .header {
-    position: fixed;
-    top: 0 ;
-    left: 0;
-    right: 0 ;
-    z-index: 99;
-    border-bottom: var(--border);
-    background-color: var(--bg);
+    position: fixed; /* Fixa o cabeçalho no topo da página */
+    top: 0 ; /* Alinha o cabeçalho ao topo da página */
+    left: 0; /* Alinha o cabeçalho à esquerda da página */
+    right: 0 ; /* Alinha o cabeçalho à direita da página */
+    z-index: 99; /* Define a ordem de empilhamento do cabeçalho */
+    border-bottom: var(--border); /* Adiciona uma borda na parte inferior do cabeçalho */
+    background-color: var(--bg);  /* Define a cor de fundo do cabeçalho */
 
 }
 
 .header section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 1.5rem;
+    display: flex; /* Torna o cabeçalho flexível */
+    justify-content: space-between; /* Alinha os itens do cabeçalho */
+    align-items: center; /* Centraliza verticalmente os itens do cabeçalho */
+    padding: 1.5rem 1.5rem; /* Adiciona um espaçamento interno ao cabeçalho */
 
 }
 
